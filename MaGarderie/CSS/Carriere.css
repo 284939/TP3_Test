@@ -1,0 +1,109 @@
+
+body{
+    background-color: lightcyan;
+}
+#banniere
+{
+    margin-top:0;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    background: url(../image/Screen\ Shot\ 2020-05-26\ at\ 5.00.01\ PM.png)  ;
+    background-repeat:no-repeat ;
+    /* background-image: url(../image/sunset-3084651__480.jpg); */
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    background-color: azure;
+}
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    color:blue;
+}
+
+#banniere_Nom
+{
+    text-align:right;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 55.5%;
+    height: 40px;
+    padding-top: 15px;
+    padding-right: 4px;
+    background-color: rgba(0, 0, 0, 0.1) ;
+    color:darkorchid;
+    font-size: 0.7em;
+    left: 44%;
+    }
+
+    #idsection {
+        flex: 1.2; 
+        position:absolute; 
+        top:250px; 
+        background-color:dimgray;
+        box-shadow: 0px 2px 5px #1c1a19;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        font-size: 0.9em;
+        width: 220px;
+        height: 430px;
+    }
+ aside{
+  margin-left:250px ;
+  text-align:justify ;
+
+ }
+ p{
+    text-align: justify;
+
+ }
+h2 ,h1 {
+    text-align:center;
+    color:blueviolet;
+}
+
+ #aside1{
+
+    flex: 1.2;
+    position:absolute ;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 0px;
+    color:black;
+    font-size: 0.9em;
+    width:40% ;
+    height: 450px;
+      }
+ #aside2{
+    flex: 1.2;
+    position:absolute ;
+    /* top:250px; */
+    height: 450px;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    color:black;
+    font-size: 0.9em;
+    margin-left: 60%;
+    width:40% ;    
+ }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+      nav a{
+        font-size: 25px;
+      }
+      
+
+ 
