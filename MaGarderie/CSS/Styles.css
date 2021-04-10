@@ -52,6 +52,8 @@ section h1, footer h1, nav a
     font-weight: normal;
     text-transform: uppercase;
 }
+
+
 /* Header */
 
 header
@@ -169,7 +171,8 @@ nav li
 nav a
 {
     font-size: 1em;
-    color:rgba(0,0,0,3);
+    /* color:rgba(0,0,0,3); */
+    color:brown ;
     padding-bottom: 3px;
     text-decoration: none;
 }
